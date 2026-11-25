@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://p0naaaokfo53"]
+
+[ext_resource type="Script" uid="uid://mp07af8k7oib" path="res://main.gd" id="1_ig7tw"]
+
+[node name="Main" type="Node2D" unique_id=812999016]
+script = ExtResource("1_ig7tw")
+
+[node name="Player" type="ColorRect" parent="." unique_id=1518019943]
+offset_left = 100.0
+offset_top = 100.0
+offset_right = 164.0
+offset_bottom = 164.0
+color = Color(0.08627451, 0.5803922, 0.09411765, 1)
+
+[node name="AI_Warden" type="ColorRect" parent="." unique_id=1405608429]
+offset_left = 500.0
+offset_top = 800.0
+offset_right = 564.0
+offset_bottom = 864.0
+color = Color(0.88235295, 0.06666667, 0.09411765, 1)
+
+[node name="Exit" type="ColorRect" parent="." unique_id=317260418]
+offset_left = 500.0
+offset_top = 100.0
+offset_right = 564.0
+offset_bottom = 164.0
+color = Color(1, 0.9843137, 0.0627451, 1)
+
+[node name="AI_Path_Line" type="Line2D" parent="." unique_id=1234324535]
+width = 5.0
+default_color = Color(1, 0.36171713, 0.2709703, 1)
+
+[node name="Walls" type="Node2D" parent="." unique_id=832331026]
+
+[node name="UI" type="CanvasLayer" parent="." unique_id=1384366621]
+
+[node name="AI_Status_Label" type="Label" parent="UI" unique_id=1874231291]
+offset_left = 20.0
+offset_top = 20.0
+offset_right = 232.0
+offset_bottom = 43.0
+theme_override_font_sizes/font_size = 28
+text = "AI STATE: HUNTING PLAYER"
+
+[node name="Game_Over_Label" type="Label" parent="UI" unique_id=1985573473]
+offset_left = 150.0
+offset_top = 600.0
+offset_right = 190.0
+offset_bottom = 623.0
+theme_override_font_sizes/font_size = 45
