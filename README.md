@@ -2,6 +2,9 @@
 
 An offline mobile puzzle game built using **Godot Engine (GDScript)** where players must outsmart an intelligent AI Warden that dynamically calculates pursuit routes in real time.
 
+### 📱 Download & Play on Android
+👉 **[Download Escape the Warden (Android APK)](https://drive.google.com/file/d/1UudUQAWlWZsF-StoPf8KtEHiFACGClJG/view?usp=sharing)**
+
 Created by **[Munawir MT]**
 
 ---
